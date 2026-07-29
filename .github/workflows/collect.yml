@@ -19,7 +19,7 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Scarica e archivia i CSV del giorno
         run: python3 scripts/fetch.py
